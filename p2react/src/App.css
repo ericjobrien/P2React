@@ -1,0 +1,161 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #43425D;
+  color: white;
+  height: 100vh;
+}
+
+.company-title {
+  font-size: 36px;
+}
+
+.horizontal-break {
+  width: 20vw;
+}
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.29);
+  height: 75vh;
+  width: 50vw;
+}
+
+.landing-page-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.landing-page-button {
+  background-color: #397C90;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 10px;
+}
+
+.landing-page-button:hover {
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.29);
+}
+
+.landing-page-button:active {
+  opacity: 50%;
+}
+
+/* Employee Profile Page Section */
+
+.employee-profile {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.29);
+  height: 90vh;
+  width: 85vw;
+}
+
+.employee-profile-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 40%;
+  height: 90%;
+  border-radius: 10px;
+  
+}
+
+.employee-profile-left-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80%;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.employee-profile-left-top-elements {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 75%;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 65%;
+}
+
+.profile-image img {
+  height: 200px;
+}
+
+.employee-profile-left-bottom {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  width: 90%;
+}
+
+.role-preferences-container {
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+}
+
+.add-role-preference-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: solid gray 1px;
+  background-color: white;
+  color: black;
+
+}
+
+.role-preference-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  
+}
+
+.employee-profile-right {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 95.5%;
+  border-radius: 10px;
+}
+
+.employee-information-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 35%;
+}
+
+.employee-information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  width: 100%;
+}
